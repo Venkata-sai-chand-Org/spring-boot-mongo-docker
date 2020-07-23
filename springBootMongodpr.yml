@@ -11,8 +11,8 @@ spec:
       labels:
         name: springboot
     spec:
-       imagePullSecrets:
-       - name: dockerprivaterepo
+      imagePullSecrets:
+      - name: dockerprivaterepo
       containers:
       imagePullPolicy: Always
       - image: 3.6.94.53:8083/spring-boot-mongo
