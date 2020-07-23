@@ -15,7 +15,7 @@ spec:
       - name: dockerprivaterepo
       containers:
       imagePullPolicy: Always
-      - image: 3.6.94.53:8083/spring-boot-mongo
+      - image: 13.127.40.96:8083/spring-boot-mongo
         name: springboot
         ports:
         - name: springboot
